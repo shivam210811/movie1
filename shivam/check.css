@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#success{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 40vh;
+    width: 60vw;
+    margin: 28vh 18vw;
+}
+
+#check img{
+    
+    margin: 4% 20%;
+    height: 40%;
+    width: 60%;
+}
+ 
+button{
+    margin-left:80% ;
+    margin-bottom: -30%;
+}

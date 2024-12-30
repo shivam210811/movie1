@@ -1,0 +1,291 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body,#main{
+    height: 100%;
+    max-width: 100%;
+    padding: 1%;
+}
+
+#main #navbar{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar input{
+    width: 50vw;
+    padding: 4px;
+    border-radius: 25px;
+    box-shadow: 2px 4px 2px lightgrey;
+    border: 0cap;
+}
+
+#navbar img{
+    height: 4vh;
+    z-index: 1;
+    margin-top: -1rem;
+    margin-left: -2rem;
+}
+
+
+/*style for nav buttons*/
+
+ .buttons{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+ }
+
+.buttons #reg ,#log{
+    background-color: rgb(220, 53, 69);
+    width: 68%;
+    height: 4vh;
+    border-radius: 5px ;
+    padding: 2px 8px;
+    color: #ffff;
+    border: transparent;
+    margin: 2px;
+    
+}
+
+/*css for socials*/
+
+#social img{
+    margin: 1px;
+    height: 0.9rem;
+}
+
+
+    
+    
+    
+
+ 
+
+/*css for services*/
+
+#services .nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    text-decoration: none
+}
+
+#services a{
+    text-decoration: none;
+    color: black;
+    margin: 0.5rem;
+}
+
+a:hover{
+    border: 3px solid pink;
+    border-radius: 25px;
+    padding: 2px;
+}
+    
+
+/*style for form*/
+#form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#form #something{
+    width: 20vw;
+    height: 60vh;
+    margin: 10%;
+    background-color: rgba(220, 53, 69, 1);
+}    
+
+#form #something h2{
+    color: white;
+    margin: 15% 30% 5% 10%
+}
+
+#form #something h3{
+    color: white;
+    margin: 5% 30% 5% 10%
+}
+
+#lorem p{
+    margin: 10%;
+    color: #ffff;
+    font-size: small;
+    height: 40%;
+}
+
+#form #registration{
+    width: 28vw;
+    height: 60vh;
+    margin: 10%;
+    background-color: white;
+    border: 1px solid lightgrey;
+    margin-left: -10%;
+    border-radius: 0px 25px 25px 0 ;
+    box-shadow: 2px 4px 24px lightgrey;
+}  
+#form #registration h2{
+    color: rgba(220, 53, 69, 1);
+    margin-top: 6%;
+    margin-left: 6%;
+    margin-bottom: -7%;
+    font-size: small;
+   
+}
+
+
+#form #registration h4{
+    margin: 8% 2% 0px 4%;
+    color: rgba(220, 53, 69, 1);
+    font-size: small;
+}
+
+#FORM{
+    color: rgba(220, 53, 69, 1);
+    
+    overflow: hidden;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    text-align: start;
+    margin-left: 5%;
+    
+    
+}
+
+#FORM input{
+  width: 140%;
+  height: 20%;
+  margin-top: 5%;
+  
+}
+
+#FORM button{
+    background-color: rgba(220, 53, 69, 1);
+    width: 80%;
+    margin: 10%;
+    margin-top: -20%;
+    padding: 2%;
+    border-radius: 5px;
+    border-color: transparent;
+    color: white;
+    text-align: center;
+    margin-bottom: 50%;
+}
+
+#registration #para{
+    color: black;
+    font-size: x-small;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    display: block;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+/*styling footer*/
+
+footer{
+    background-color: rgba(220, 53, 69, 1);
+    width: 100%;
+    height: 25rem;
+    
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    gap: 5%;
+    
+}
+
+footer #components{
+    margin: 10%;
+}
+
+footer img{
+  height: 10vh;
+  width: 12vw;
+  margin-left: 2rem;
+  
+}
+
+footer ul{
+    color: #ffff;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 10%;
+    font-size: small;
+}
+
+#movies{
+    
+    color: white;
+    width: fit-content;
+    height: 40vh;
+    font-size: small;
+    white-space: nowrap;
+    margin: 0% 0% 10% 2%;
+    
+}
+
+
+hr{
+    width: 80%;
+}
+
+footer #sites{
+    
+    width: 15rem;
+    padding: 10px;
+    margin: 15rem 0% 10% -38rem;
+    gap: 2%;
+    display: grid;
+    
+    max-width: 100%;
+    
+}
+
+#sites h3{
+    font-size: small;
+    overflow-y: visible;
+    color: white;
+    font-weight: 300;
+    
+
+}
+
+#sites #img1{
+    display: flex;
+    margin: 2%;
+    gap: 2%;
+    
+
+}
+
+#last{
+    color: #ffff;
+    font-size: small;
+    background-color: rgba(220, 53, 69, 1);
+    text-align: center;
+    padding: 1%;
+}
+
+#grid img{
+   width: 25%;
+   height: 25%;
+   
+   border: 2px solid #d3d3df;
+   border-radius: 13px;
+   box-shadow: 4px 7px 7px 0px #00000042;
+   cursor: pointer;
+   margin: 2%;
+transition: 400ms;
+
+}
